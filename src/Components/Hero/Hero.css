@@ -58,15 +58,16 @@
 @media (max-width:1480px) {
     .hero-left{
        padding-left: 200px;
+       margin-top: 100px;
     }
     .hero-left h2{
-        font-size: 45px;
+        font-size: 30px;
     }
     .hero-left p{
-        font-size: 80px;
+        font-size: 60px;
     }
     .hero-hand-icon img{
-        width: 90px;
+        width: 60px;
     }
     .hero-latest-btn{
         gap: 10px;
@@ -76,7 +77,7 @@
         font-size: 18px;
     }
     .hero-right img{
-        width: 500px;
+        width: 350px;
     }
 }
 
@@ -101,7 +102,7 @@
         font-size: 18px;
     }
     .hero-right img{
-        width: 500px;
+        width: 400px;
     }
 }
 
