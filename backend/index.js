@@ -1,3 +1,4 @@
+require('dotenv').config();
 const port = process.env.PORT || 4000;
 const express = require("express");
 const app = express();
@@ -7,7 +8,6 @@ const multer = require("multer");
 const path = require("path")
 const cors = require("cors");
 const { type } = require("os");
-
 
 
 
