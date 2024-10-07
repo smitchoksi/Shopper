@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config()
 const port = process.env.PORT || 4000;
 const express = require("express");
 const app = express();
@@ -267,7 +267,7 @@ app.post('/getcart',fetchUser,async (req,res)=>{
     res.json(userData.cartData);
 })
 
-app.listen(port,(error)=>{
+app.listen(process.env.PORT,(error)=>{
     if(!error){
         console.log("server running on port" +port)
     }
